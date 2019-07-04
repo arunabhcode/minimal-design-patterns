@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+
+project(test-cpp VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_DISABLE_SOURCE_CHANGES ON)
+set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
+set(CMAKE_CXX_STANDARD 14)
+
+# set(PROJECT_SRCS ${PROJECT_SOURCE_DIR}/test.cpp)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -ggdb")
+
+# add_executable(euler1 ${PROJECT_SOURCE_DIR}/euler1.cpp)
+
